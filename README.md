@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+🧠 How It Works
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Redux store maintains the account balance.
 
-## Available Scripts
+Actions:
 
-In the project directory, you can run:
+deposit
 
-### `npm start`
+withdraw
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Reducer updates state based on dispatched actions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+UI automatically re-renders when state changes.
 
-### `npm test`
+📸 UI Preview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Displays:
 
-### `npm run build`
+Bank Name
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Current Balance
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Deposit Button
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Withdraw Button
 
-### `npm run eject`
+🔮 Future Improvements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Add transaction history
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Add user authentication
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Persist state using redux-persist
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Connect backend API (Spring Boot / Node.js)
 
-## Learn More
+Add unit tests
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📚 Learning Outcomes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project demonstrates:
 
-### Code Splitting
+Redux state management
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Action creators & reducers
 
-### Analyzing the Bundle Size
+Thunk middleware
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Component-based architecture
 
-### Making a Progressive Web App
+Clean UI structuring
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+👨‍💻 Author
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Shubham Sankhwar
